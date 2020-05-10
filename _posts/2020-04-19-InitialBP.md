@@ -3,7 +3,7 @@ layout: post
 title: Initial Blog Post
 subtitle: First stage of our project 
 bigimg: /img/yologo.png
-gh-repo: tongxinw/bengali.ai
+gh-repo: https://github.com/tongxinw/YOLOv3_traffic_sign
 gh-badge: [star, fork, follow]
 tags: traffic_sign yolov3 object_detection
 comments: true
