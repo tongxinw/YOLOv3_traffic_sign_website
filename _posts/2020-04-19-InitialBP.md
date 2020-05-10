@@ -111,7 +111,9 @@ Here is the detail instruction to download the dataset from OpenImageV6: [Colab 
 
 # Reference
 [Ayoosh Kathuria, What’s new in YOLO v3? Towards Data Science.](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b)
+
 [Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi, You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640)
+
 [Joseph Redmon & Ali Farhadi, YOLOv3: An Incremental Improvement](https://arxiv.org/pdf/1804.02767.pdf)
 
 
