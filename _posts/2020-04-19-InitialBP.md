@@ -5,7 +5,7 @@ subtitle: First stage of our project
 bigimg: /img/yologo.png
 gh-repo: tongxinw/bengali.ai
 gh-badge: [star, fork, follow]
-tags: traffic sign, yolov3, object detection
+tags: traffic_sign yolov3 object_detection
 comments: true
 ---
 
