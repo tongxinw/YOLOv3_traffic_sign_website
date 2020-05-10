@@ -15,7 +15,7 @@ Ten years ago, it was nearly impossible for researchers to let computers tell th
 The following diagram illustrates the architecture of the CNN used in YOLOv3.
 
 <div style="text-align:center;">
-  <img src="https://medium.com/@larkspurvc718/object-detection-using-yolov3-f7c75515ddc" alt="Test">
+  <img src="https://miro.medium.com/max/1400/0*QW4v12jc29S6fmAt" alt="Test">
 </div>
 <br/>
 
