@@ -14,7 +14,10 @@ comments: true
 Ten years ago, it was nearly impossible for researchers to let computers tell the difference between cat and dog. Today, with the advanced development in image classification and object detection allow the computer to tell the difference with 99% accuracy. Object detection is a computer technology that combines image processing and computer visions to detect objects of a certain class, such as humans, cars etc. In current society, it is widely used in tracking objects, including video surveillance and image retrieval. Among various methods for object detection, YOLO (You Only Look Once) utilized Convolutional Neural Network (CNN) to perform end-to-end object detection without defining features.
 The following diagram illustrates the architecture of the CNN used in YOLOv3.
 
-[图]
+<div style="text-align:center;">
+  <img src="https://medium.com/@larkspurvc718/object-detection-using-yolov3-f7c75515ddc" alt="Test">
+</div>
+<br/>
 
 The Method was first proposed by Joseph Redmon et al. from University of Washington in 2015 and has been updated to version 3 in 2018 along with another researcher Ali Farhadi in the paper titled “YOLOv3: An Incremental Improvement”.
 
