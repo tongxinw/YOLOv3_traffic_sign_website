@@ -28,7 +28,7 @@ navbar-links:
     - Jiamin Tang: "https://www.linkedin.com/in/jiamin-tang-9234311a4/"
   Resources:
     - Brown DSI: "https://browndsi.github.io/"
-    - Github Repo: ""
+    - Github Repo: "https://github.com/tongxinw/YOLOv3_traffic_sign"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
