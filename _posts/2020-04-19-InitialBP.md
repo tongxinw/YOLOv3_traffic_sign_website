@@ -15,7 +15,7 @@ The following diagram illustrates the architecture of the CNN used in YOLOv3.
 
 <div style="text-align:center;">
   <img src="https://miro.medium.com/max/1400/0*QW4v12jc29S6fmAt" alt="Architecture of the CNN used in YOLOv3">
-  <em>Architecture of the CNN used in YOLOv3</em>
+  <em>source: Ayoosh Kathuria, What’s new in YOLO v3? Towards Data Science.</em>
 </div>
 <br/>
 
@@ -31,6 +31,7 @@ For example, the image shown below can be divided into a S * S grid and each cel
 
 <div style="text-align:center;">
   <img src="https://miro.medium.com/max/1400/1*8eGPJMRdeHxxFKV6grSbpw.png" alt="Example">
+  <em>Source: You Only Look Once: Unified, Real-Time Object Detection</em>
 </div>
 <br/>
 
@@ -50,6 +51,7 @@ Next, we need to define a Keras model that has the right number and type of laye
 
 <div style="text-align:center;">
   <img src="https://miro.medium.com/max/1064/1*KFtyQ2qSchYegpc9tWnCJQ.png" alt="yolov3 structure">
+  <em>Source: YOLOv3: An Incremental Improvement</em>
 </div>
 <br/>
 
