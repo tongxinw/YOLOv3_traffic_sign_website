@@ -4,7 +4,7 @@ title: Initial Blog Post
 subtitle: First stage of our project 
 bigimg: /img/yologo_3.jpg
 gh-repo: https://github.com/tongxinw/YOLOv3_traffic_sign
-tags: traffic_sign yolov3 object_detection
+tags: [traffic sign, yolov3, object detection]
 comments: true
 ---
 
