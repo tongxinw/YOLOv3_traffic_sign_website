@@ -14,8 +14,8 @@ Ten years ago, it was nearly impossible for researchers to let computers tell th
 The following diagram illustrates the architecture of the CNN used in YOLOv3.
 
 <div style="text-align:center;">
-  <img src="https://miro.medium.com/max/1400/0*QW4v12jc29S6fmAt" alt="Architecture of the CNN">
-  <em>image_caption</em>
+  <img src="https://miro.medium.com/max/1400/0*QW4v12jc29S6fmAt" alt="Architecture of the CNN used in YOLOv3">
+  <em>Architecture of the CNN used in YOLOv3</em>
 </div>
 <br/>
 
