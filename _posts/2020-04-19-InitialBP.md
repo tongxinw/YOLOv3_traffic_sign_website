@@ -55,6 +55,7 @@ Next, we need to define a Keras model that has the right number and type of laye
 </div>
 <br/>
 
+
 Specifically, the following figure displays a shortcut of the YOLOv3 model that we used for our project:
 
 <div style="text-align:center;">
@@ -81,6 +82,7 @@ The following cases are the examples running the YOLOv3 model:
 
 <div style="text-align:center;">
   <img src="https://miro.medium.com/max/840/1*6fwuESAW2eK6GDQn3bip5Q.png" alt="test_person">
+  <em>Source: Weibo</em>
 </div>
 <br/>
 
@@ -88,6 +90,7 @@ The following cases are the examples running the YOLOv3 model:
 
 <div style="text-align:center;">
   <img src="https://miro.medium.com/max/1400/1*5_KgxbyOfJpD0_bPrUNAsg.png" alt="test_person2">
+  <em>Source: Google</em>
 </div>
 <br/>
 
@@ -95,11 +98,13 @@ The following cases are the examples running the YOLOv3 model:
 
 <div style="text-align:center;">
   <img src="https://miro.medium.com/max/864/1*lWt0mJ7ZVyAFtc6lpoZ2Eg.png" alt="test_person3">
+  <em>Source: Google</em>
 </div>
 <br/>
 
 <div style="text-align:center;">
   <img src="https://miro.medium.com/max/1400/1*V83j6qZ4YdotJD32r4mB9A.png" alt="test_bird">
+  <em>Source: Google</em>
 </div>
 <br/>
 
