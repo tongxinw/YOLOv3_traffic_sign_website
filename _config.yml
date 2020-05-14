@@ -70,7 +70,7 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
+  rss: false
   email: "tongxin_wang@brown.edu"
 #  facebook: deanattali
   github: tongxinw
@@ -97,7 +97,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "tongxinw.github.io/YOLOv3_traffic_sign_webpage/"  # eg. "deanattali.com/beautiful-jekyll"
+# url-pretty: "tongxinw.github.io/YOLOv3_traffic_sign_webpage/"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
