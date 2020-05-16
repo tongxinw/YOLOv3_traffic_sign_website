@@ -52,7 +52,7 @@ These were trained using the DarkNet code base on the MSCOCO dataset. Download t
 Next, we need to define a Keras model that has the right number and type of layers to match the downloaded model weights. The model architecture is called a “*DarkNet*” and was originally loosely based on the VGG-16 model. Generally, the YOLOv3 is structured as the following:
 
 <div style="text-align:center;">
-  <img src="https://miro.medium.com/max/1064/1*KFtyQ2qSchYegpc9tWnCJQ.png" alt="yolov3 structure">
+  <img src="https://miro.medium.com/max/1064/1*KFtyQ2qSchYegpc9tWnCJQ.png" alt="yolov3 structure"><br>
   <em>YOLOv3 Structure</em><br>
   <em>Source: YOLOv3: An Incremental Improvement</em>
 </div>
@@ -62,7 +62,7 @@ Next, we need to define a Keras model that has the right number and type of laye
 Specifically, the following figure displays a shortcut of the YOLOv3 model that we used for our project:
 
 <div style="text-align:center;">
-  <img src="https://miro.medium.com/max/932/1*Y_jSVCd0q4sCskBPXKidfw.png" alt="yolov3 model">
+  <img src="https://miro.medium.com/max/932/1*Y_jSVCd0q4sCskBPXKidfw.png" alt="yolov3 model"><br>
   <em>yolov3 model</em>
 </div>
 <br/>
@@ -74,7 +74,7 @@ Then, we saved the model for further predictions.
 Since the model was pre-trained with dedicated classes, the model we used can only detect classes listed below:
 
 <div style="text-align:center;">
-  <img src="https://miro.medium.com/max/1400/1*W0NSAZCU-AocR-ZwNHdoWQ.png" alt="80classes">
+  <img src="https://miro.medium.com/max/1400/1*W0NSAZCU-AocR-ZwNHdoWQ.png" alt="80classes"><br>
   <em>80 Classes of COCO</em>
 </div>
 <br/>
@@ -86,7 +86,7 @@ The following cases are the examples running the YOLOv3 model:
 1. YOLOv3 detects a single person in the image with a high accuracy, which is over 97%.
 
 <div style="text-align:center;">
-  <img src="https://miro.medium.com/max/840/1*6fwuESAW2eK6GDQn3bip5Q.png" alt="test_person">
+  <img src="https://miro.medium.com/max/840/1*6fwuESAW2eK6GDQn3bip5Q.png" alt="test_person"><br>
   <em>Test example</em><br>
   <em>Source: Weibo</em>
 </div>
@@ -95,7 +95,7 @@ The following cases are the examples running the YOLOv3 model:
 2. When the image contains more than one object, our selected YOLOv3 model could also detect those objects one by one. Since YOLOv3 sees the entire image while prediction, we can see that there are few background errors in the following instance, which is one of the strengths of the YOLOv3 model compared to other object detection algorithms. However, it evokes one limitation of the YOLOv3 model. When multiple objects gather together, it is possible for the YOLOv3 model to generate lower accuracy for the object detection.
 
 <div style="text-align:center;">
-  <img src="https://miro.medium.com/max/1400/1*5_KgxbyOfJpD0_bPrUNAsg.png" alt="test_person2">
+  <img src="https://miro.medium.com/max/1400/1*5_KgxbyOfJpD0_bPrUNAsg.png" alt="test_person2"><br>
   <em>Test Example</em><br>
   <em>Source: Google</em>
 </div>
@@ -104,14 +104,14 @@ The following cases are the examples running the YOLOv3 model:
 3. Another limitation of the YOLOv3 model is represented by the following images. It struggles to localize small objects that appear in groups. We can see from the following two instances that it fails to detect some of the people, and for the flock of birds, it may confuse the YOLOv3 model which loses the ability to detect them separately.
 
 <div style="text-align:center;">
-  <img src="https://miro.medium.com/max/864/1*lWt0mJ7ZVyAFtc6lpoZ2Eg.png" alt="test_person3">
+  <img src="https://miro.medium.com/max/864/1*lWt0mJ7ZVyAFtc6lpoZ2Eg.png" alt="test_person3"><br>
   <em>Test Example</em><br>
   <em>Source: Google</em>
 </div>
 <br/>
 
 <div style="text-align:center;">
-  <img src="https://miro.medium.com/max/1400/1*V83j6qZ4YdotJD32r4mB9A.png" alt="test_bird">
+  <img src="https://miro.medium.com/max/1400/1*V83j6qZ4YdotJD32r4mB9A.png" alt="test_bird"><br>
   <em>Test Example</em><br>
   <em>Source: Google</em>
 </div>
