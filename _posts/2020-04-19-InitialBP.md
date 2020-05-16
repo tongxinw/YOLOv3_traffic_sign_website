@@ -15,6 +15,7 @@ The following diagram illustrates the architecture of the CNN used in YOLOv3.
 
 <div style="text-align:center;">
   <img src="https://miro.medium.com/max/1400/0*QW4v12jc29S6fmAt" alt="Architecture of the CNN used in YOLOv3">
+  <em>Architecture of the CNN used in YOLOv3</em><br>
   <em>source: Ayoosh Kathuria, What’s new in YOLO v3? Towards Data Science.</em>
 </div>
 <br/>
@@ -31,6 +32,7 @@ For example, the image shown below can be divided into a S * S grid and each cel
 
 <div style="text-align:center;">
   <img src="https://miro.medium.com/max/1400/1*8eGPJMRdeHxxFKV6grSbpw.png" alt="Example">
+  <em>Detection Example</em><br>
   <em>Source: You Only Look Once: Unified, Real-Time Object Detection</em>
 </div>
 <br/>
@@ -51,6 +53,7 @@ Next, we need to define a Keras model that has the right number and type of laye
 
 <div style="text-align:center;">
   <img src="https://miro.medium.com/max/1064/1*KFtyQ2qSchYegpc9tWnCJQ.png" alt="yolov3 structure">
+  <em>YOLOv3 Structure</em><br>
   <em>Source: YOLOv3: An Incremental Improvement</em>
 </div>
 <br/>
@@ -60,6 +63,7 @@ Specifically, the following figure displays a shortcut of the YOLOv3 model that 
 
 <div style="text-align:center;">
   <img src="https://miro.medium.com/max/932/1*Y_jSVCd0q4sCskBPXKidfw.png" alt="yolov3 model">
+  <em>yolov3 model</em>
 </div>
 <br/>
 
@@ -71,6 +75,7 @@ Since the model was pre-trained with dedicated classes, the model we used can on
 
 <div style="text-align:center;">
   <img src="https://miro.medium.com/max/1400/1*W0NSAZCU-AocR-ZwNHdoWQ.png" alt="80classes">
+  <em>80 Classes of COCO</em>
 </div>
 <br/>
 
@@ -82,6 +87,7 @@ The following cases are the examples running the YOLOv3 model:
 
 <div style="text-align:center;">
   <img src="https://miro.medium.com/max/840/1*6fwuESAW2eK6GDQn3bip5Q.png" alt="test_person">
+  <em>Test example</em><br>
   <em>Source: Weibo</em>
 </div>
 <br/>
@@ -90,6 +96,7 @@ The following cases are the examples running the YOLOv3 model:
 
 <div style="text-align:center;">
   <img src="https://miro.medium.com/max/1400/1*5_KgxbyOfJpD0_bPrUNAsg.png" alt="test_person2">
+  <em>Test Example</em><br>
   <em>Source: Google</em>
 </div>
 <br/>
@@ -98,12 +105,14 @@ The following cases are the examples running the YOLOv3 model:
 
 <div style="text-align:center;">
   <img src="https://miro.medium.com/max/864/1*lWt0mJ7ZVyAFtc6lpoZ2Eg.png" alt="test_person3">
+  <em>Test Example</em><br>
   <em>Source: Google</em>
 </div>
 <br/>
 
 <div style="text-align:center;">
   <img src="https://miro.medium.com/max/1400/1*V83j6qZ4YdotJD32r4mB9A.png" alt="test_bird">
+  <em>Test Example</em><br>
   <em>Source: Google</em>
 </div>
 <br/>
@@ -118,6 +127,10 @@ Here is the detail instruction to download the dataset from OpenImageV6: [Colab 
 
 # Reference
 [Ayoosh Kathuria, What’s new in YOLO v3? Towards Data Science.](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b)
+
+Kathuria, Ayoosh. What’s New in YOLO v3? Towards Data Science. Web. April 23, 2018. 
+
+The article discusses the metrics, algorithms and math behind YOLO v3 as well as the benchmark to evaluate its performance.
 
 [Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi, You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640)
 
