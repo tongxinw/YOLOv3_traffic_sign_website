@@ -128,12 +128,14 @@ Here is the detail instruction to download the dataset from OpenImageV6: [Colab 
 # Reference
 [Ayoosh Kathuria, What’s new in YOLO v3? Towards Data Science.](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b)
 
-Kathuria, Ayoosh. What’s New in YOLO v3? Towards Data Science. Web. April 23, 2018. 
-
 The article discusses the metrics, algorithms and math behind YOLO v3 as well as the benchmark to evaluate its performance.
 
 [Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi, You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640)
 
+This paper presents YOLO, a unified object detection algorithm. YOLO is extremely fast compared to other object detection systems and can achieve rather high accuracy.
+
 [Joseph Redmon & Ali Farhadi, YOLOv3: An Incremental Improvement](https://arxiv.org/pdf/1804.02767.pdf)
+
+This paper presents YOLOv3, which adds some updates to YOLO to make it better. YOLOvv3 is more accurate and still fast. 
 
 
